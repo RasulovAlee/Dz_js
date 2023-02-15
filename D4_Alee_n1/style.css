@@ -1,0 +1,22 @@
+.calc{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+}
+#num{
+    font-size: 100px;
+}
+.btns{
+    display: flex;
+    gap: 30px;
+}
+.btns button{
+    width: 200px;
+    height: 70px;
+    background-color: #15198f;
+    color: #fff;
+    font-size: 20px;
+    border-radius: 12px;
+}

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="cordinate">
+    <div>
+        <h1>X:
+            <span id="posX"></span>
+        </h1>
+        <h1>Y:
+            <span id="posY"></span>
+        </h1>
+    </div>
+  </div>
+  <div class="area" onmousemove="addEventListener('mousemove', event =>{
+    posX.innerHTML = event.screenX
+    posY.innerHTML = event.screenY
+    })"
+  ></div>
+</body>
+<script src="main.js"></script>
+</html>

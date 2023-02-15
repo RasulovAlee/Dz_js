@@ -1,0 +1,22 @@
+
+body{
+    background-color: #000;
+    position: relative;
+}
+.area{
+    width: 600px;
+    height: 600px;
+    background-color: #f9fcff;
+    margin: 60px auto;
+    border-radius: 12px;
+}
+.cordinate{
+    color: #fff;
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 140px;
+    left: 100px;
+}
+
